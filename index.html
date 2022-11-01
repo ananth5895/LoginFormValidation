@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="icofont/icofont.css">
+  </head>
+  <body>
+    <div class="mainSection">
+      <div class="section1">
+        <form>
+          <h3>Login</h3>
+          <div>
+            <input type="text" class="inputStyle"
+              placeholder="ananth@gmail.com" id="emailIdInt">
+              <span class="emailError" id="emailId"></span>
+          </div>
+          <div>
+            <input type="password" class="inputStyle" id="pwIdInt" placeholder="Enter Password">
+            <span class="pwError" id="pwId"></span>
+         </div>
+          <div>
+            <button class="ContinueBtn" onclick="Errorshow(event)">continue</button>
+          </div>
+          <a href="" class="aingar">or Connect with social Media</a>
+          <div class="twitterIcon">
+            <i class="icofont-twitter"></i>
+            <a href="https://twitter.com/" target="_blank">sign in with Twitter</a>
+          </div>
+          <div class="fbIcon">
+            <i class="icofont-facebook"></i>
+            <a href="https://facebook.com/" target="_blank">sign in with facebook</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

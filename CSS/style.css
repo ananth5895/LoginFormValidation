@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.mainSection {
+  background-color: #4e94de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.section1 {
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 38px 20px;
+}
+.section1 h3 {
+  font-size: 24px;
+  font-weight: revert;
+  font-family: inherit;
+}
+.section1 h3::after {
+  content: " ";
+  display: block;
+  width: 25px;
+  height: 4px;
+  background-color: brown;
+  margin-bottom: 10px;
+}
+.inputStyle {
+  width: 100%;
+  height: 19px;
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+  border-bottom: 3px solid gray;
+}
+.ContinueBtn {
+  width: 100%;
+  margin: 17px 0;
+  padding: 6px;
+  outline: none;
+  border: none;
+  background-color: chocolate;
+  font-size: 13px;
+  color: white;
+}
+.section1 a {
+  text-decoration: none;
+}
+.twitterIcon {
+  background-color: aqua;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  padding: 5px;
+  font-weight: bolder;
+  margin: 10px 0;
+  color: white;
+}
+.fbIcon {
+  background-color: blue;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  padding: 5px;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+.fbIcon a , i{
+  color: white;
+}
